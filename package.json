@@ -15,7 +15,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/jwade1327/challenge-14-mvc/issues"
   },
-  "homepage": "https://github.com/jwade1327/challenge-14-mvc#readme"
+  "homepage": "https://github.com/jwade1327/challenge-14-mvc#readme",
+  "keywords": []
 }

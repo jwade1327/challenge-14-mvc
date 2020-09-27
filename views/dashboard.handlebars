@@ -8,7 +8,7 @@
         </div>
         <div>
             <label for="post-content">Content</label>
-            <input id="post-content" class="post-content-text-area">
+            <input id="post-content" class="post-content-text-area" name="post-content">
         </div>
         <button type="submit" id="new-post-btn">Create</button>
     </form>
@@ -23,6 +23,7 @@
             {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a>
         </li>
+        {{/each}}
     </ul>
 </section>
 {{/if}}

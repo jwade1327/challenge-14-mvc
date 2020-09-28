@@ -3,10 +3,10 @@
 }
 
 :root {
-    --primary: rgb(149, 64, 230);
-    --secondary: cornsilk;
-    --tertiary: darkgrey;
-    --main-hover: #842d96;
+    --primary: rgb(64, 205, 230);
+    --secondary: rgb(73, 2, 64);
+    --tertiary: rgb(255, 255, 255);
+    --main-hover: #2d5e96;
 }
   
 body, html {
@@ -15,6 +15,7 @@ body, html {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: var(--secondary);
+    color: var(--tertiary);
 }
 ul {
     list-style-type: none;
